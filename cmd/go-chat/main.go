@@ -15,7 +15,7 @@ package main
 
 import (
     "fmt"
-    "github.com/prototypo/go-chat/internal/go-chat"
+//    "github.com/prototypo/go-chat/internal/go-chat"
 )
 
 const serverport = 8080

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+div.chatcontent {
+    min-height: 10vh;
+    height: 60vh;
+    width: 100%;
+    overflow-y: scroll;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+
+span.username {
+    color: blue;
+}

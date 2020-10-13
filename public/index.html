@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <h1>A (very) Simple Chat Service in GoLang using WebSockets</h1>
+    <div id="userstatus"></div>
+
+    <div id="chatcontent" class="chatcontent"></div>
+
+    <div>
+        <input id="username" type="text" placeholder="Username">
+        <button onclick="setUsername()">Join</button>
+    </div>
+        
+    <div>
+        <input id="message" type="text" placeholder="Send message">
+        <button onclick="send()">Send</button>
+    </div>
+
+    <script src="/chat.js"></script>
+    </body>
+    
+    </html>

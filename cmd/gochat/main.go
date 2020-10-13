@@ -93,6 +93,7 @@ func handleMessages() {
 }
 
 func main() {
+
 	// Create a simple file server
 	fs := http.FileServer(http.Dir("/Users/davidhyland-wood/Documents/GitHub/go-chat/public"))
 	http.Handle("/", fs)
